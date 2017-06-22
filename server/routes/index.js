@@ -9,7 +9,10 @@ const path = require('path');
 //   text: Sequelize.STRING,
 //   complete: Sequelize.BOOLEAN
 // });
-const connectionString = process.env.DATABASE_URL || 'postgres://localhost:5432/blog';
+
+//const connectionString = process.env.DATABASE_URL || 'postgres://localhost:5432/blog';
+
+const connectionString = 'postgres://rflkrebsnfnybn:43aa548243cb20fdd8ae0767f9a9a036655c83debda642a5ce6fb77493dac524@ec2-107-21-205-25.compute-1.amazonaws.com:5432/d5eoek7afp7vt1';
 //const connectionString = process.env.DATABASE_URL || 'postgres://csrozilvqvtqes:17692bd1f566f6417369936618de94bc22a95dcd23e15d6075ebf2f44b07bff6@ec2-54-163-254-48.compute-1.amazonaws.com:5432/def4a3ef6gurv8;'
 //const connectionString = process.env.DATABASE_URL || 'postgres://ec2-23-21-220-152.compute-1.amazonaws.com:5432/d53d7t2o6pu1qt';
 router.get('/juke', (req, res, next) => {
