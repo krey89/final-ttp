@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Jukebox</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/jk.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  	<script src="javascripts/juke.js"></script>
+  </head>
+<body>
+<!-- audio-id for controls-->
+<audio id="audio-id"></audio>
+
+<div id="main-div"><br>
+<h1 id="main-title"> Jukebox </h1>
+<!-- Add song to playlist -->
+    <div id="form">
+      <h1>Add Song To Playlist</h1>
+      <div id="inputs"><br>
+        <input id="title" class="input" type="text" placeholder="title"><br>
+        <br>
+        <input id="artist" class="input" type="text" placeholder="artist"><br>
+        <br>
+        <input id="url" class="input" type="text" placeholder="url"><br><br>
+        <button id="add_song" type="submit">Submit</button>
+            <hr/>
+      </div>
+    </div>
+<!-- audio  buttons -->
+    <div id="buttons"><br>
+      <button id="play">Play</button>
+      <button id="pause">Pause</button>
+      <button id="stop">Stop</button>
+    </div>
+          <br>
+    <div>
+<!-- navigate playlist -->
+      <button id="back">Back</button>
+      <button id="next">Next</button>
+      <br><br><hr/>
+<!-- display current song -->
+      <h4 class="out" id="title-out">title</h3>
+      <h4 class="out" id="artist-out">artist</h3>
+      <h5 class="out" id="url-out">url</h4>
+    </div>
+</div>
+
+</body>
+</html>

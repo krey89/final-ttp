@@ -1,0 +1,31 @@
+a{
+  color: black;
+}
+body {
+  padding: 50px;
+  background: linear-gradient(-90deg, darkblue, white);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 400px;
+  background-color: #2E5894;
+  border: 10px solid black;
+
+}
+
+
+.header {
+  text-align: center;
+  color: white;
+}

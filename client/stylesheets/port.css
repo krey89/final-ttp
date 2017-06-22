@@ -1,0 +1,40 @@
+a{
+  color: white;
+}
+body {
+  padding: 50px;
+  background: linear-gradient(-90deg, cyan, darkblue);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+h1{
+  color: lightblue;
+}
+
+p{
+  color: lightblue;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 400px;
+  background-color: black;
+  border: 1px solid black;
+
+}
+
+
+.header {
+  text-align: center;
+  color: white;
+}
+.juke{
+  padding: 5px;
+  border-style: dotted;
+  border-color: white;
+  border: 20px;
+}
