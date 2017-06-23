@@ -66,8 +66,7 @@ var moveCount = 0
 var turn = 0
 var mode = 1
 
-function vari()
-{
+function vari(){
 sqr1 = document.tic.sqr1.value
 sqr2 = document.tic.sqr2.value
 sqr3 = document.tic.sqr3.value
@@ -188,47 +187,47 @@ function player1Check()
 {
   if(sqr1 == " X " && sqr2 == " X " && sqr3 == " X ")
   {
-    alert("Player 1 wins!")
+    alert("You win!")
     reset()
   }
   else if(sqr4 == " X " && sqr5 == " X " && sqr6 == " X ")
   {
-    alert("Player 1 wins!")
+    alert("You win!")
     reset()
   }
   else if(sqr7 == " X " && sqr8 == " X " && sqr9 == " X ")
   {
-    alert("Player 1 wins!")
+    alert("You win!")
     reset()
   }
   else if(sqr1 == " X " && sqr5 == " X " && sqr9 == " X ")
   {
-    alert("Player 1 wins!")
+    alert("You win!")
     reset()
   }
   else if(sqr1 == " X " && sqr4 == " X " && sqr7 == " X ")
   {
-    alert("Player 1 wins!")
+    alert("You win!")
     reset()
   }
   else if(sqr2 == " X " && sqr5 == " X " && sqr8 == " X ")
   {
-    alert("Player 1 wins!")
+    alert("You win!")
     reset()
   }
   else if(sqr3 == " X " && sqr6 == " X " && sqr9 == " X ")
   {
-    alert("Player 1 wins!")
+    alert("You win!")
     reset()
   }
   else if(sqr1 == " X " && sqr5 == " X " && sqr9 == " X ")
   {
-    alert("Player 1 wins!")
+    alert("You win!")
     reset()
   }
   else if(sqr3 == " X " && sqr5 == " X " && sqr7 == " X ")
   {
-    alert("Player 1 wins!")
+    alert("You win!")
     reset()
   }
   else
@@ -244,47 +243,47 @@ function player2Check()
   drawCheck()
   if(sqr1 == " O " && sqr2 == " O " && sqr3 == " O ")
   {
-    alert("Player 2 wins!")
+    alert("Computer wins!")
     reset()
   }
   else if(sqr4 == " O " && sqr5 == " O " && sqr6 == " O ")
   {
-    alert("Player 2 wins!")
+    alert("Computer wins!")
     reset()
   }
   else if(sqr7 == " O " && sqr8 == " O " && sqr9 == " O ")
   {
-    alert("Player 2 wins!")
+    alert("Computer wins!")
     reset()
   }
   else if(sqr1 == " O " && sqr5 == " O " && sqr9 == " O ")
   {
-    alert("Player 2 wins!")
+    alert("Computer wins!")
     reset()
   }
   else if(sqr1 == " O " && sqr4 == " O " && sqr7 == " O ")
   {
-    alert("Player 2 wins!")
+    alert("Computer wins!")
     reset()
   }
   else if(sqr2 == " O " && sqr5 == " O " && sqr8 == " O ")
   {
-    alert("Player 2 wins!")
+    alert("Computer wins!")
     reset()
   }
   else if(sqr3 == " O " && sqr6 == " O " && sqr9 == " O ")
   {
-    alert("Player 2 wins!")
+    alert("Computer wins!")
     reset()
   }
   else if(sqr1 == " O " && sqr5 == " O " && sqr9 == " O ")
   {
-    alert("Player 2 wins!")
+    alert("Computer wins!")
     reset()
   }
   else if(sqr3 == " O " && sqr5 == " O " && sqr7 == " O ")
   {
-    alert("Player 2 wins!")
+    alert("Computer wins!")
     reset()
   }
 }
